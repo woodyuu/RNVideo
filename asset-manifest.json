@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RNVdieo/static/css/main.b70ae59a.css",
+    "main.js": "/RNVdieo/static/js/main.b00a9171.js",
+    "static/js/787.3212b96d.chunk.js": "/RNVdieo/static/js/787.3212b96d.chunk.js",
+    "static/media/약속해줘-로그인.mp4": "/RNVdieo/static/media/약속해줘-로그인.61656d69d8455c00bec1.mp4",
+    "static/media/약속해줘-캘린더편.mp4": "/RNVdieo/static/media/약속해줘-캘린더편.cd33c777adf2eea823fb.mp4",
+    "static/media/약속해줘-알람.mp4": "/RNVdieo/static/media/약속해줘-알람.0865a3d30107debdae44.mp4",
+    "static/media/약속해줘-채팅.mp4": "/RNVdieo/static/media/약속해줘-채팅.74a74ab3c908de0f6a44.mp4",
+    "static/media/약속해줘-로그인.PNG": "/RNVdieo/static/media/약속해줘-로그인.b27f5fbcad7341cb7944.PNG",
+    "static/media/약속해줘-채팅.png": "/RNVdieo/static/media/약속해줘-채팅.f67d48f3279eebfa520b.png",
+    "static/media/약속해줘-캘린더.PNG": "/RNVdieo/static/media/약속해줘-캘린더.8c6482aa973f7e95bbc4.PNG",
+    "static/media/약속해줘-알람.PNG": "/RNVdieo/static/media/약속해줘-알람.f7974d88fbb971ec6cf7.PNG",
+    "index.html": "/RNVdieo/index.html",
+    "main.b70ae59a.css.map": "/RNVdieo/static/css/main.b70ae59a.css.map",
+    "main.b00a9171.js.map": "/RNVdieo/static/js/main.b00a9171.js.map",
+    "787.3212b96d.chunk.js.map": "/RNVdieo/static/js/787.3212b96d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b70ae59a.css",
+    "static/js/main.b00a9171.js"
+  ]
+}
