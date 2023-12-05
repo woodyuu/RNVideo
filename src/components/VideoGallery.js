@@ -8,6 +8,7 @@ import thumbnail1 from '../assets/thumbnail/약속해줘-로그인.PNG'
 import thumbnail2 from '../assets/thumbnail/약속해줘-캘린더.PNG'
 import thumbnail3 from '../assets/thumbnail/약속해줘-채팅.png'
 import thumbnail4 from '../assets/thumbnail/약속해줘-알람.PNG'
+import WaterDroplets from './WaterDroplets'
 
 const VideoGallery = () => {
   const videoList = [
@@ -33,12 +34,13 @@ const VideoGallery = () => {
         <h1>약속해줘 Videos</h1>
       </div>
       <div className="video-gallery">
+      <WaterDroplets/>  
         {videoList.map((item, index) => (
           <div
             key={index}
             className="video-thumbnail-container"
             onClick={() => openVideo(item.video)}
-          >            
+          >                      
             <div className="video-thumbnail">
               <img
                 src={item.thumbnail}

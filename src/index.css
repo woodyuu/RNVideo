@@ -1,7 +1,7 @@
 @font-face{
   font-family: "CookieRun Regular";
   font-weight: normal;
-  src: url('./components/fonts/CookieRun\ Bold.ttf') format('truetype');
+  src: url('./fonts/CookieRun\ Regular.ttf') format('truetype');
 }
 body {
   margin: 0;

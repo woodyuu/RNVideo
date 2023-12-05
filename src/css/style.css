@@ -2,6 +2,7 @@
   display: inline-block;
   position: relative;
   animation: drop 1s ease-out forwards, waterDroplets 1s infinite ease-in-out;
+  z-index: 1;
 }
 
 @keyframes drop {
