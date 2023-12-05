@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RNVideo/static/css/main.d33c2e21.css",
-    "main.js": "/RNVideo/static/js/main.0c8fcb9f.js",
+    "main.css": "/RNVideo/static/css/main.5dd5ef85.css",
+    "main.js": "/RNVideo/static/js/main.c9812440.js",
     "static/js/787.3212b96d.chunk.js": "/RNVideo/static/js/787.3212b96d.chunk.js",
     "static/media/약속해줘-로그인.mp4": "/RNVideo/static/media/약속해줘-로그인.61656d69d8455c00bec1.mp4",
     "static/media/약속해줘-캘린더편.mp4": "/RNVideo/static/media/약속해줘-캘린더편.cd33c777adf2eea823fb.mp4",
@@ -13,12 +13,12 @@
     "static/media/약속해줘-캘린더.PNG": "/RNVideo/static/media/약속해줘-캘린더.8c6482aa973f7e95bbc4.PNG",
     "static/media/약속해줘-알람.PNG": "/RNVideo/static/media/약속해줘-알람.f7974d88fbb971ec6cf7.PNG",
     "index.html": "/RNVideo/index.html",
-    "main.d33c2e21.css.map": "/RNVideo/static/css/main.d33c2e21.css.map",
-    "main.0c8fcb9f.js.map": "/RNVideo/static/js/main.0c8fcb9f.js.map",
+    "main.5dd5ef85.css.map": "/RNVideo/static/css/main.5dd5ef85.css.map",
+    "main.c9812440.js.map": "/RNVideo/static/js/main.c9812440.js.map",
     "787.3212b96d.chunk.js.map": "/RNVideo/static/js/787.3212b96d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33c2e21.css",
-    "static/js/main.0c8fcb9f.js"
+    "static/css/main.5dd5ef85.css",
+    "static/js/main.c9812440.js"
   ]
 }
