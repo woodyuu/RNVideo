@@ -28,34 +28,40 @@ const VideoGallery = () => {
   }
 
   return (
-    <div className="video-gallery">
-      {videoList.map((item, index) => (
-        <div
-          key={index}
-          className="video-thumbnail"
-          onClick={() => openVideo(item.video)}
-        >
-          <img
-            src={item.thumbnail}
-            alt={`Thumbnail ${index + 1}`}
-            className='thumbnail-img'
-          />        
-          <p className='thumbnail-click'>Click</p>  
-          <p className="thumbnail-name">{item.name}</p>
-          
-        </div>
-      ))}
-      {selectedVideo && (
-        <div className="video-modal">
-          <video controls autoPlay>
-            <source src={selectedVideo} type="video/mp4" />
-          </video>
-          <button className="close-button" onClick={closeVideo}>
-            Close
-          </button>
-        </div>
-      )}
-    </div>
+    <>
+      <div className="title">
+        <h1>약속해줘 Videos</h1>
+      </div>
+      <div className="video-gallery">
+        {videoList.map((item, index) => (
+          <div
+            key={index}
+            className="video-thumbnail-container"
+            onClick={() => openVideo(item.video)}
+          >            
+            <div className="video-thumbnail">
+              <img
+                src={item.thumbnail}
+                alt={`Thumbnail ${index + 1}`}
+                className='thumbnail-img'
+              />
+              <p className='thumbnail-click'>Click</p>
+              <p className="thumbnail-name">{item.name}</p>
+            </div>
+          </div>
+        ))}
+        {selectedVideo && (
+          <div className="video-modal">
+            <video controls autoPlay>
+              <source src={selectedVideo} type="video/mp4" />
+            </video>
+            <button className="close-button" onClick={closeVideo}>
+              Close
+            </button>
+          </div>
+        )}
+      </div>
+    </>
   )
 }
 

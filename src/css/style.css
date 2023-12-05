@@ -1,31 +1,66 @@
-.video-gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.video-thumbnail-container {
+  display: inline-block;
+  position: relative;
+  animation: drop 1s ease-out forwards, waterDroplets 1s infinite ease-in-out;
 }
 
-.thumbnail-img{
+@keyframes drop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes waterDroplets {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.title h1{
+  color: #42D0d5;
+  animation: waterDroplets 1s infinite ease-in-out;
+}
+
+.video-thumbnail {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;  
+}
+
+.thumbnail-img {
   width: 20rem;
   height: 35rem;
   margin: 1rem 2rem;
   border-radius: 1.5rem;
-  cursor: pointer;  
-  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  
 }
 
-.thumbnail-img:hover {
+.video-thumbnail:hover {
   transform: scale(1.1);
 }
 
-.thumbnail-name{
+.thumbnail-name {
   margin: 0;
   font-weight: bold;
+  color: #42D0d5;
 }
 
-.thumbnail-click{
-  margin: 1rem auto .3rem auto;
+.thumbnail-click {
+  margin: 1rem auto 0.3rem auto;
   font-weight: bold;
+  color: #42D0d5;
 }
 
 .video-modal {
@@ -34,10 +69,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, .9);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 29;
 }
 
 video {
@@ -54,4 +90,52 @@ video {
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+
+/* Responsive styles for 800px to 1199px */
+@media screen and (max-width: 1400px) {
+  .thumbnail-img {
+    width: 15rem;
+    height: 25rem;
+  }
+
+  .video-modal video {
+    width: 70%;
+    max-height: 70%;
+  }
+
+  .title h1{
+    font-size: 1.7rem;
+  }
+}
+
+/* Responsive styles for 600px to 799px */
+@media screen and (max-width: 799px) {
+  .thumbnail-img {
+    width: 12rem;
+    height: 20rem;
+  }
+
+  .video-modal video {
+    width: 60%;
+    max-height: 60%;
+  }
+
+  .title h1{
+    font-size: 1.4rem;
+  }
+}
+
+/* Responsive styles for 400px to 599px */
+@media screen and (max-width: 599px) {
+  .thumbnail-img {
+    width: 10rem;
+    height: 18rem;
+  }
+
+  .video-modal video {
+    width: 50%;
+    max-height: 50%;
+  }
 }
