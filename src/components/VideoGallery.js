@@ -30,17 +30,17 @@ const VideoGallery = () => {
 
   return (
     <>
+      <div className="video-gallery">
       <div className="title">
         <h1>약속해줘 Videos</h1>
       </div>
-      <div className="video-gallery">
-      <WaterDroplets/>  
+        <WaterDroplets />
         {videoList.map((item, index) => (
           <div
             key={index}
             className="video-thumbnail-container"
             onClick={() => openVideo(item.video)}
-          >                      
+          >
             <div className="video-thumbnail">
               <img
                 src={item.thumbnail}
